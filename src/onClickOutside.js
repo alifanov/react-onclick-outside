@@ -23,7 +23,7 @@ const onClickOutside = (handler = () => null) => {
 
             render() {
                 return (
-                    <div ref={ref => {
+                    <div style={{'diplay': 'inline-block'}} ref={ref => {
                         this.ref = ref
                     }}
                     >
